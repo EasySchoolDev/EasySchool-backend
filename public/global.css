@@ -1,0 +1,15 @@
+:root {
+    --darkmode-bg-color: #2c2c2c;
+    --lightmode-bg-color: #bcb8ab;
+    --primary-color: #138b00;
+}
+
+.dark body {
+    background-color: var(--darkmode-bg-color); /* 使用名为primary-color的自定义属性 */
+    color: white;
+}
+
+body {
+    background-color: var(--lightmode-bg-color); /* 使用名为primary-color的自定义属性 */
+    color: black;
+}
