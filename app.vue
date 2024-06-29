@@ -27,7 +27,7 @@ if (localStorageDarkMode === 'dark') {
 </script>
 
 <template>
-  <div>
+  <div class="bg-white dark:bg-slate-800">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -35,6 +35,5 @@ if (localStorageDarkMode === 'dark') {
 </template>
 
 <style>
-@import "public/global.css";
 </style>
 

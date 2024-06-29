@@ -3,5 +3,5 @@ export default defineAppConfig({
         primary: 'green',
         gray: 'cool'
     },
-    title: 'EasySchool'
+    title: 'EasySchool',
 })
